@@ -2264,3 +2264,7 @@ div.divider {
 .icon-icon-24213:before {
    content: "n"; 
 }
+
+.navbar-search {
+    padding-bottom: 25px;
+}
