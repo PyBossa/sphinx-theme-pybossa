@@ -293,3 +293,6 @@ dl.function th {
   vertical-align: top;
 }
 
+.injected {
+    display: none;
+}
