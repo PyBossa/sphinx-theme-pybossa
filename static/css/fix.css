@@ -51,3 +51,7 @@ img {
 blockquote > div > .simple {
     padding-left: 10px;
 }
+
+.injected {
+    display: none;
+}
