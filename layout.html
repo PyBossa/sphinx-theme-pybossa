@@ -36,7 +36,6 @@
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="_static/animate.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
-	{% include "gtm.html" %}
 {% endblock %}
 
 {% block header %}
@@ -50,6 +49,7 @@
 
 {%- block content %}
     
+	{% include "gtm.html" %}
     <div class="container first-container content">
         <div class="row row-fluid">
             <div class="col-md-4 mytoc">
