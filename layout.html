@@ -37,13 +37,14 @@
 	<link rel="stylesheet" href="_static/animate.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
 {% endblock %}
+{% block header %}
+{% include "gtm.html" %}
 <script>
 jQuery(function() {
   jQuery.scrollDepth();
 });
 </script>
-{% block header %}
-{% include "gtm.html" %}
+
 {% include "navbar.html" %}
 {% endblock %}
 
