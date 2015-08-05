@@ -1,5 +1,5 @@
 {% extends "basic/layout.html" %}
-{% set script_files = script_files + ['_static/js/bootstrap.min.js', '_static/js/custom.js', '_static/js/wow.min.js', 'jquery.scrolldepth.min.js'] %}
+{% set script_files = script_files + ['_static/js/bootstrap.min.js', '_static/js/custom.js', '_static/js/wow.min.js', '_static/js/jquery.scrolldepth.min.js'] %}
 {% set css_files = ['_static/css/bootstrap.css', '_static/css/bootstrap-theme.css', '_static/animate.css', '_static/css/fix.css']%}
 
 {%- block doctype %}
@@ -37,7 +37,11 @@
 	<link rel="stylesheet" href="_static/animate.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
 {% endblock %}
-
+<script>
+jQuery(function() {
+  jQuery.scrollDepth();
+});
+</script>
 {% block header %}
 {% include "gtm.html" %}
 {% include "navbar.html" %}
