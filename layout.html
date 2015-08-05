@@ -39,6 +39,7 @@
 {% endblock %}
 
 {% block header %}
+{% include "gtm.html" %}
 {% include "navbar.html" %}
 {% endblock %}
 
@@ -49,7 +50,6 @@
 
 {%- block content %}
     
-	{% include "gtm.html" %}
     <div class="container first-container content">
         <div class="row row-fluid">
             <div class="col-md-4 mytoc">
