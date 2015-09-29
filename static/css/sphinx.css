@@ -8,7 +8,14 @@ img {
     border-radius: 3px;
 }
 
-.section h1, h2, h3, h4, h5, h6 {
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5,
+.section h6,
+.headerlink 
+{
     color: #F5A623;
 }
 
