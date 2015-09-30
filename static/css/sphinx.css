@@ -63,6 +63,6 @@ p.caption:hover .headerlink {
 .section:before {
   content:"";
   display:block;
-  height:50px; /* fixed header height*/
-  margin:-50px 0 0; /* negative fixed header height */
+  height:70px; /* fixed header height*/
+  margin:-70px 0 0; /* negative fixed header height */
 }
