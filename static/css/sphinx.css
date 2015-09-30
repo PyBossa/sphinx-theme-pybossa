@@ -72,3 +72,11 @@ p.caption:hover .headerlink {
     margin-top: 37px;
 }
 }
+
+
+@media(max-width:360px) {
+    .mascot {
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
