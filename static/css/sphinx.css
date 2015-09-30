@@ -83,7 +83,12 @@ p.caption:hover .headerlink {
 
 .admonition {
     background-color: #f7f7f7;
-    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
 
 .first.admonition-title {
