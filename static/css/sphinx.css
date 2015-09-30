@@ -29,8 +29,9 @@ h5 .headerlink,
 h6 .headerlink, 
 dl dt .headerlink, 
 p.caption .headerlink {
+    display:none;
     visibility: hidden;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 h1 .headerlink::after, 
@@ -45,4 +46,18 @@ p.caption .headerlink::after {
     visibility: visible;
     content: "\f13d";
     font-family: FontAwesome;
+}
+
+h1 .headerlink:hover, 
+h2 .headerlink:hover, 
+.toctree-wrapper p.caption .headerlink:hover,, 
+h3 .headerlink:hover,, 
+h4 .headerlink:hover,, 
+h5 .headerlink:hover,, 
+h6 .headerlink:hover,, 
+dl dt .headerlink:hover,, 
+p.caption .headerlink:hover, {
+    display:inline-block;;
+    visibility: visible;
+    font-size: 18px;
 }
