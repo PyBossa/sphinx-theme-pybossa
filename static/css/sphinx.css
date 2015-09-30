@@ -66,3 +66,11 @@ p.caption:hover .headerlink {
   height:70px; /* fixed header height*/
   margin:-70px 0 0; /* negative fixed header height */
 }
+
+.mascot {
+  position: fixed;
+  float: right;
+  margin-left: 70%;
+  margin-top: 49;
+  margin-bottom: 60px;
+}
