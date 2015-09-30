@@ -50,10 +50,12 @@ p.caption .headerlink::after {
 
 h1:hover .headerlink,
 h2:hover .headerlink, 
+.toctree-wrapper p.caption:hover .headerlink, 
 h3:hover .headerlink, 
 h4:hover .headerlink, 
 h5:hover .headerlink, 
 h6:hover .headerlink, 
-{
+dl:hover dt:hover .headerlink, 
+p.caption:hover .headerlink {
     display:inline-block;
 }
