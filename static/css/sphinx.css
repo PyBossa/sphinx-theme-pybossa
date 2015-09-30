@@ -67,5 +67,8 @@ p.caption:hover .headerlink {
   margin:-70px 0 0; /* negative fixed header height */
 }
 
+@media(min-width:768px) and (max-width:980px) {
 .mascot {
+    margin-top: 37px;
+}
 }
