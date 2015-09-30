@@ -80,3 +80,19 @@ p.caption:hover .headerlink {
         margin-right:auto;
     }
 }
+
+.admonition {
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+
+.first.admonition-title {
+    background-color: #D15452;
+    text-align:center;
+    width: 44px;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: white;
+   font-weight: bold;
+}
