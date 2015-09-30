@@ -32,8 +32,6 @@ p.caption .headerlink {
     display: none;
     visibility: hidden;
     font-size: 14px;
-    content: "\f0c1";
-    font-family: FontAwesome;
 }
 
 h1 .headerlink::after, 
