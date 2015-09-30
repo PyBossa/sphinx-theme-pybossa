@@ -32,4 +32,20 @@ p.caption .headerlink {
     display: none;
     visibility: hidden;
     font-size: 14px;
+    content: "\f0c1";
+    font-family: FontAwesome;
+}
+
+h1 .headerlink::after, 
+h2 .headerlink::after, 
+.toctree-wrapper p.caption .headerlink::after, 
+h3 .headerlink::after, 
+h4 .headerlink::after, 
+h5 .headerlink::after, 
+h6 .headerlink::after, 
+dl dt .headerlink::after, 
+p.caption .headerlink::after {
+    visibility: visible;
+    content: "\f0c1";
+    font-family: FontAwesome;
 }
