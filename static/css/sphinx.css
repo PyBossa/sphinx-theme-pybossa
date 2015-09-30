@@ -29,7 +29,6 @@ h5 .headerlink,
 h6 .headerlink, 
 dl dt .headerlink, 
 p.caption .headerlink {
-    display: none;
     visibility: hidden;
     font-size: 14px;
 }
@@ -44,6 +43,6 @@ h6 .headerlink::after,
 dl dt .headerlink::after, 
 p.caption .headerlink::after {
     visibility: visible;
-    content: "\f0c1";
+    content: "\f13d";
     font-family: FontAwesome;
 }
