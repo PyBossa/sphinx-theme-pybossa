@@ -840,6 +840,8 @@ ul.who-is-using li.institution6 {
 .logo_sf {
     margin-top: 60px;
     max-width: 80%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .main-features{
