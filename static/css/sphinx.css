@@ -68,9 +68,8 @@ p.caption:hover .headerlink {
 }
 
 .mascot {
-  position: fixed;
-  float: right;
-  margin-left: 70%;
-  margin-top: 49;
-  margin-bottom: 60px;
+    position: fixed;
+    float: right;
+    margin-left: 70%;
+    margin-top: -117px;
 }
