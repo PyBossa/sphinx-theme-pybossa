@@ -186,3 +186,7 @@ code {
 	color:#EE7147;
 	font-weight:400;
 }
+
+.injected {
+    display:none;
+}
