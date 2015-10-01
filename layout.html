@@ -73,7 +73,7 @@ jQuery(function() {
 {% endif %}
 
     
-<div class="container-fluid {% if pagename != 'index'%} first-container {% endif %} content">
+<div class="container {% if pagename != 'index'%} first-container {% endif %} content">
         <div class="row">
             <div class="hidden-xs col-sm-4 col-md-4 mytoc">
                 {% include "searchbox.html" %}
