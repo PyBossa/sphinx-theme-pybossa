@@ -134,10 +134,7 @@ p.caption:hover .headerlink {
 }
 
 .widget ul > li > a.current {
-    background-color: #F3F3F3;
     text-decoration: underline;
-    padding:3px 5px;
-    border-radius: 3px;
 }
 
 .widget ul > li > a {
