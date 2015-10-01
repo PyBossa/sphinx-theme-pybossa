@@ -162,3 +162,23 @@ p.caption:hover .headerlink {
     font-size: 18px;
     color: grey;
 }
+
+pre, code {
+    display:inline-block;
+    display: block;
+    width: auto;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: pre;
+    word-wrap: normal;
+}
+
+pre::-webkit-scrollbar{height:.5em;background:rgba(255,255,255,0.15)}
+pre::-webkit-scrollbar-thumb:horizontal{background:rgba(255,255,255,0.2); -webkit-border-radius: 4px; border-radius: 4px }
+code {
+	background-color:#efefef;
+	padding:0 5px;
+	margin:0;
+	color:#EE7147;
+	font-weight:400;
+}
