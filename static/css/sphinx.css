@@ -92,7 +92,7 @@ p.caption:hover .headerlink {
 }
 
 .first.admonition-title {
-    background-color: #D15452;
+    background-color: #D9534F;
     text-align:center;
     width: 44px;
     padding: 5px;
@@ -100,4 +100,37 @@ p.caption:hover .headerlink {
     font-size: 12px;
     color: white;
    font-weight: bold;
+}
+
+.widget ul {
+    list-style: none;
+    
+}
+
+.widget ul > li {
+    margin-bottom: 10px;
+}
+
+.widget ul > li > ul {
+    margin-top: 10px;
+}
+
+.widget ul > li.toctree-l1 {
+    margin-left: -40px;
+}
+
+.widget ul > li.toctree-l2,
+.widget ul > li.toctree-l3 {
+    margin-left: -20px;
+    
+}
+
+.widget ul > li > a.current {
+    background-color: #F3F3F3;
+    padding:3px 5px;
+    border-radius: 3px;
+}
+
+.widget ul > li > a {
+    color: black;
 }
