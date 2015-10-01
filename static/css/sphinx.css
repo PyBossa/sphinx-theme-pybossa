@@ -102,9 +102,13 @@ p.caption:hover .headerlink {
    font-weight: bold;
 }
 
+.widget h3 {
+    display: none;
+}
+
 .widget ul {
     list-style: none;
-    
+    font-size: 18px;
 }
 
 .widget ul > li {
@@ -141,6 +145,7 @@ p.caption:hover .headerlink {
     padding-right: 34px;
     border: 1px solid grey;
     box-shadow: 0px 0px 1px 1px #C8C8C8 inset;
+    margin-bottom: 10px;
 }
 
 .navbar-search span {
