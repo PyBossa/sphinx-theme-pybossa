@@ -73,15 +73,15 @@ jQuery(function() {
 {% endif %}
 
     
-    <div class="container first-container content">
-        <div class="row row-fluid">
-            <div class="col-sm-4 col-md-4 mytoc">
+    <div class="container-fluid first-container content">
+        <div class="row">
+            <div class="hidden-sm col-md-4 mytoc">
                 {% include "searchbox.html" %}
                 {% block sidebar2 %}
                 {{ sidebar() }}
                 {% endblock %}
             </div>
-            <div class="col-sm-8 col-md-8">
+            <div class="col-sm-12 col-md-8">
                {% block body %} {% endblock %}
             </div>
         </div>
