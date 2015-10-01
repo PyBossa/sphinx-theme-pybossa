@@ -57,7 +57,7 @@ jQuery(function() {
 
 
 {% if pagename == "index" %}
-<div class="container-fluid orangebanner">
+<div class="container-fluid first-container orangebanner">
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-md-8">
@@ -73,7 +73,7 @@ jQuery(function() {
 {% endif %}
 
     
-    <div class="container-fluid first-container content">
+<div class="container-fluid {% if pagename != 'index'%} first-container {% endif %} content">
         <div class="row">
             <div class="hidden-xs col-sm-4 col-md-4 mytoc">
                 {% include "searchbox.html" %}
