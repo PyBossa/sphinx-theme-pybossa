@@ -1,6 +1,6 @@
 {% extends "basic/layout.html" %}
 {% set script_files = script_files + ['_static/js/bootstrap.min.js', '_static/js/custom.js', '_static/js/wow.min.js', '_static/js/jquery.scrolldepth.min.js'] %}
-{% set css_files = ['_static/css/bootstrap.css', '_static/css/bootstrap-theme.css', '_static/animate.css', '_static/css/fix.css']%}
+{% set css_files = ['_static/css/bootstrap.css', '_static/css/bootstrap-theme.css', '_static/animate.css', '_static/css/sphinx.css']%}
 
 {%- block doctype %}
 <!DOCTYPE html>
@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="_static/css/bootstrap-theme.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
 	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700|Inconsolata' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,700">
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -54,16 +54,34 @@ jQuery(function() {
 {% block relbar2 %}{% endblock %}
 
 {%- block content %}
+
+
+{% if pagename == "index" %}
+<div class="container-fluid first-container orangebanner">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-md-8">
+                <h1>{{title}}</h1>
+                <p>PyBossa is a free, 100% open-source framework for crowdsourcing. It enables you to create and run projects where volunteers help you with image classification, transcription, geocoding and more. PyBossa lets researchers, civic hackers and developers connect with people all around the world to solve problems faster and more efficiently. Embrace the power of the crowd!</p>
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <img class="mascot" src="_static/img/nick-docs.png"></img>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
     
-    <div class="container first-container content">
-        <div class="row row-fluid">
-            <div class="col-md-4 mytoc">
+<div class="container {% if pagename != 'index'%} first-container {% endif %} content">
+        <div class="row">
+            <div class="hidden-xs col-sm-4 col-md-4 mytoc">
+                {% include "searchbox.html" %}
                 {% block sidebar2 %}
                 {{ sidebar() }}
                 {% endblock %}
-                {% include "searchbox.html" %}
             </div>
-            <div class="col-md-8">
+            <div class="col-xs-12 col-sm-8 col-md-8">
                {% block body %} {% endblock %}
             </div>
         </div>
