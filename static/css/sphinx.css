@@ -144,6 +144,12 @@ p.caption:hover .headerlink {
     color: black;
 }
 
+.widget li.toctree-l1.current > a {
+    background-color: #F3F3F3;
+    padding:3px 5px;
+    border-radius: 3px;
+}
+
 .search-query {
     padding-top: 5px;
     padding-bottom: 5px;
