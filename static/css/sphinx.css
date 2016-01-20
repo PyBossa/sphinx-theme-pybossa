@@ -180,3 +180,8 @@ code {
 .injected {
     display:none;
 }
+
+footer a {
+  font-size: 16px;
+  font-weight: 400;
+}
