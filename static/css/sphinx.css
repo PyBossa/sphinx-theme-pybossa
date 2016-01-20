@@ -8,17 +8,6 @@ img {
     border-radius: 3px;
 }
 
-.section h1,
-.section h2,
-.section h3,
-.section h4,
-.section h5,
-.section h6,
-.headerlink 
-{
-    color: #F5A623;
-}
-
 
 h1 .headerlink, 
 h2 .headerlink, 
@@ -46,6 +35,7 @@ p.caption .headerlink::after {
     visibility: visible;
     content: "\f13d";
     font-family: FontAwesome;
+    color: rgb(85, 110, 123);
 }
 
 h1:hover .headerlink,
@@ -67,10 +57,6 @@ p.caption:hover .headerlink {
   margin:-70px 0 0; /* negative fixed header height */
 }
 
-.mascot {
-    padding-top:50px;
-}
-
 @media(min-width:768px) and (max-width:980px) {
 .mascot {
     padding-top: 150px;
@@ -86,7 +72,7 @@ p.caption:hover .headerlink {
 }
 
 .admonition {
-    background-color: #f7f7f7;
+    background-color: rgba(46,64,74,1);
     border-radius: 3px;
     margin-bottom: 20px;
     padding-top: 15px;
@@ -95,8 +81,12 @@ p.caption:hover .headerlink {
     padding-bottom: 10px;
 }
 
+p.last {
+    color: white;
+}
+
 .first.admonition-title {
-    background-color: #D9534F;
+    background-color: rgb(248, 141, 29);
     text-align:center;
     width: 44px;
     padding: 5px;
@@ -138,7 +128,7 @@ p.caption:hover .headerlink {
 }
 
 .widget ul > li > a {
-    color: black;
+    color: rgba(46,64,74,1);
 }
 
 .widget li.toctree-l1.current > a {
