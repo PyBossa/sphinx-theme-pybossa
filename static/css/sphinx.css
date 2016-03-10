@@ -190,3 +190,7 @@ footer .footer-logo {
  width: 40%;
  margin-bottom: 15px;
 }
+
+.navbar-brand > img {
+    max-width: 110px !important;
+}
